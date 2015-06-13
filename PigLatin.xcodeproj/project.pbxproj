@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FAB6A5FF1B2B78AB005F29A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A5FE1B2B78AB005F29A9 /* main.m */; };
+		FAB6A60A1B2B78EF005F29A9 /* NSString+PigLatinCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A6091B2B78EF005F29A9 /* NSString+PigLatinCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		FAB6A5FB1B2B78AB005F29A9 /* PigLatin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PigLatin; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB6A5FE1B2B78AB005F29A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAB6A6081B2B78EF005F29A9 /* NSString+PigLatinCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PigLatinCategory.h"; sourceTree = "<group>"; };
+		FAB6A6091B2B78EF005F29A9 /* NSString+PigLatinCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PigLatinCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		FAB6A5FD1B2B78AB005F29A9 /* PigLatin */ = {
 			isa = PBXGroup;
 			children = (
+				FAB6A6081B2B78EF005F29A9 /* NSString+PigLatinCategory.h */,
+				FAB6A6091B2B78EF005F29A9 /* NSString+PigLatinCategory.m */,
 				FAB6A5FE1B2B78AB005F29A9 /* main.m */,
 			);
 			path = PigLatin;
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB6A5FF1B2B78AB005F29A9 /* main.m in Sources */,
+				FAB6A60A1B2B78EF005F29A9 /* NSString+PigLatinCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
